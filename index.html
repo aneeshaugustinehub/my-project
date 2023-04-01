@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="auther" content="aneesh">
+    <meta name="decription" content="this page contan all the thing im laurning how to createas i laurn html page">
+    <title>my first web page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>My Goals for this Year</h1>
+        <nav aria-label="parimiri navigation">
+            <ul>
+                <li>
+                    <a href="#html">learn html</a>
+                </li>
+                <li>
+                    <a href="#vacation">palaning vacation</a>
+                </li>
+                <li>
+                    <a href="#contact">contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article id="html">
+        <h2>i'm ready to learn html</h2>
+            <p>This is my first web page</p>
+            <section>
+                <h3>html5</h3>
+            <img src="img/html_logo_300x300.png" alt="html5 logo" title="i am learning html" width="300" height="300">
+            <figure>
+                <figcaption>
+                    An Example of Html5 Code
+                </figcaption>
+                <p>
+                    <code>&lt;h1&gt;hellow world&lt;h1&gt;
+                    </code>
+                </p>
+            </figure>
+        </section>
+        <section>
+            <h3>My daliy shedule</h3>
+            <p>&nbsp;let me tell you how</p> 
+            <ol>
+                <li>&nbsp;&nbsp;&nbsp;i learn more about web</li>
+                <li>&nbsp;&nbsp;&nbsp;i plan my shedule</li>
+                <li>&nbsp;&nbsp;&nbsp;i use resource from
+                <ABBr title="Free code camp">
+                    <a href="https://developer.mozilla.org/"> Youtube</a>
+                </ABBr>.</li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>
+                        guess the <mark> number of hour </mark> i code per day
+                    </summary>
+                    <p>i start at <time datetime="08:00"> 8 am </time>and i write code for <time datetime="PT3H"> 3 hour </time> every morning</p>
+                </details>
+            </aside>
+            <br>
+
+
+            <table>
+                <caption> My daliy shedule</caption>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="col">time</th>
+                        <th scope="col">activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">
+                        morning
+                    </th>
+                    <td>
+                        <time datetime="08:00">8am </time>-<time datetime="11:00"> 11:00</time>
+                    </td>
+                    <td>write code</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        brake
+                    </th>
+                    <td>
+                        <time datetime="11:00">11am </time>-<time datetime="12:00"> 12PM</time>
+                    </td>
+                    <td>Eat lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        afternoon
+                    </th>
+                    <td>
+                        <time datetime="12:00">12pm </time>-<time datetime="17:00">5pm</time>
+                    </td>
+                    <td>study for other courses</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">
+                        evening
+                    </th>
+                    <td rowspan="2">all other times</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                    <th scope="row">night</th>
+                    <td>sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">and that i do every day, 5 day a week just eat, sleep, code ..and recharge</td>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+        </article>
+        <hr>
+        <article id="vacation">
+            <h2>iam also planing a vcation</h2>
+            <p>i've been working hard and <em> realy nead a getaway</em>
+            </p>
+
+
+            <p>i live in <abbr title="kerala">KL</abbr> i want visit mountain
+            </p>
+            <address>aneesh vadkkekara house</address>
+                <section>
+                    <h3>Places i like to visit</h3>
+                    <ul>
+                <li>
+                    <p>
+                        i've heard good things about caribian
+                    </p>
+                    <figure>
+                        <img src="img/caribbean.jpg" alt="carinban beach" width="400" height="225" loading="lazy">
+                        <figcaption>
+                            caribean beach getaway
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <p>i've heard good thins about going here</p>
+                    <address>
+                        newyork usa 1025422</address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="cancune vacation"
+                            title="it's five o 'clock somewhere" loading="lazy" width="400" height="267">
+                            <figcaption>
+                                caribian vacation image
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <!-- note add more palces-->
+                <!-- <div></div> <span></span> this tow element ho no semantic mening -->
+            </section>
+            <section>
+                <h3>
+                    places i want to avoid
+                </h3> 
+                <p>palces i bin <strong> before</strong></p>
+                <dl>
+                    <dt>theruvumala</dt>
+                    <dd>i bin there before</dd>
+                    <dt>panniyarmani</dt>
+                    <dd> also bin there before</dd>
+                </dl>
+            </section>
+        </article>
+        <article id="contact">
+            <h2>contact me</h2>
+            <p>i'd realy like to here from you</p>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>personal info</legend>
+                <p>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="aneesh" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                <label for="laststName">lastst Name</label>
+                <input type="text" name="laststName" id="laststName" placeholder="augustine" autocomplete="on" required>
+                </p>
+                <p>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+                </p>
+                <p>
+                <label for="phone">your phone </label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-555" 
+            required>
+                </p>
+                <p>
+                <label for="decade">favorate decade</label>
+            <input type="number" name="decade" id="decade" min="1950" max="2023" step="10" value="1990"></p>
+                <p>
+                    <label for="coffee">favorate coffee</label>
+                    <select name="coffee" id="coffee" multiple size="5">
+                    <optgroup label="coffee">
+                        <option value="reguler coffee">Reguler coffee</option>
+                        <option value="ice coffee">Ice coffee</option>
+                    </optgroup>
+                    <optgroup label="Expreso drinks">
+                        <option value="latte" selected>Latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortado">Cortado</option>
+                        <option value="americano">Americano</option>
+                    </optgroup>
+                    <option value="other">other</option>
+                </select>
+                </p>
+                <!-- <p>
+                    <label for="coffee">favorate coffee</label>
+                    <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                    <option value="coffee"></option>
+                    <option value="Latte"></option>
+                    <option value="other"></option>
+                </datalist>
+                </p> -->
+                </fieldset>
+                <fieldset>
+                    <legend>what is your favorate food</legend>
+                    <p>
+                        <input type="radio" name="food" id="tocos" value="tocos">
+                        <label for="tocos">tocos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="other" value="other">
+                        <label for="other">other</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>do you have pets</legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog" value="dog">
+                        <label for="dog">dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat" value="cat">
+                        <label for="cat">cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="fish" value="fish">
+                        <label for="fish">fish</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="other-pets" value="other">
+                        <label for="other">other</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Sent Me Message</legend>
+                    <label for="message">Your Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message">
+                    </textarea>
+                </fieldset>
+                <br>
+                <!-- <input type="submit"> -->
+                <button type="submit">submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+                <button type="reset">reset</button>
+            </form>
+        </article>
+        </main>
+        <hr>
+        <footer>
+            <p>
+                &lt;&lt;&lt; &copy; <a href="about.html">Aneesh Augustine</a> &gt;&gt;&gt;
+            </p>
+            <p>
+                <a href="#">back to top</a>
+            </p>
+        </footer>
+    </body>
+    </html>
